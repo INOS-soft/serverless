@@ -1,7 +1,13 @@
-/.eslintcache
-/.nyc_output
-/coverage
-/dist
-/node_modules
-npm-debug.log
-/package-lock.json
+*.bak
+*.db
+*.avi
+*.pdf
+*.ps
+*.mid
+*.midi
+*.mp3
+*.aif
+*.wav
+# Some versions of Finale have a bug and randomly save extra copies of
+# the music source as "<Filename> copy.mus"
+*copy.mus
